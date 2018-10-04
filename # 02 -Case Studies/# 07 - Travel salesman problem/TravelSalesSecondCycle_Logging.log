@@ -1,0 +1,155 @@
+
+Problem: 
+- Name: unknown
+  Lower bound: 33.0
+  Upper bound: 33.0
+  Number of objectives: 1
+  Number of constraints: 18
+  Number of variables: 24
+  Number of nonzeros: 73
+  Sense: minimize
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 1
+      Number of created subproblems: 1
+  Error rc: 0
+  Time: 0.017600297927856445
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0
+
+
+========== OBJECTIVE FUNCTION ==========
+8*y[A,B] + 3*y[A,D] + 4*y[A,F] + 8*y[B,A] + y[B,C] + 5*y[B,D] + 9*y[B,E] + y[C,B] + 7*y[C,D] + 2*y[C,E] + 21*y[C,F] + 3*y[D,A] + 5*y[D,B] + 7*y[D,C] + 3*y[D,F] + 9*y[E,B] + 2*y[E,C] + 35*y[E,F] + 4*y[F,A] + 21*y[F,C] + 3*y[F,D] + 35*y[F,E] + 5*y[F,F]
+
+El valor de la función objetivo es: 
+33.0
+========================================
+
+============== PARAMETERS ==============
+
+Cf: Distancia entre las ciudades ----------------
+
+('A', 'A') = 0
+('A', 'B') = 8
+('A', 'C') = 0
+('A', 'D') = 3
+('A', 'E') = 0
+('A', 'F') = 4
+('B', 'A') = 8
+('B', 'B') = 0
+('B', 'C') = 1
+('B', 'D') = 5
+('B', 'E') = 9
+('B', 'F') = 0
+('C', 'A') = 0
+('C', 'B') = 1
+('C', 'C') = 0
+('C', 'D') = 7
+('C', 'E') = 2
+('C', 'F') = 21
+('D', 'A') = 3
+('D', 'B') = 5
+('D', 'C') = 7
+('D', 'D') = 0
+('D', 'E') = 0
+('D', 'F') = 3
+('E', 'A') = 0
+('E', 'B') = 9
+('E', 'C') = 2
+('E', 'D') = 0
+('E', 'E') = 0
+('E', 'F') = 35
+('F', 'A') = 4
+('F', 'B') = 0
+('F', 'C') = 21
+('F', 'D') = 3
+('F', 'E') = 35
+('F', 'F') = 5
+========================================
+
+============== CONSTRAINTS ==============
+
+r1: Desde todas las ciudades debe llegar a una ----------------
+
+y[A,B] + y[A,D] + y[A,F]  ==  1.0
+y[B,A] + y[B,C] + y[B,D] + y[B,E]  ==  1.0
+y[C,B] + y[C,D] + y[C,E] + y[C,F]  ==  1.0
+y[D,A] + y[D,B] + y[D,C] + y[D,F]  ==  1.0
+y[E,B] + y[E,C] + y[E,F]  ==  1.0
+y[F,A] + y[F,C] + y[F,D] + y[F,E] + y[F,F]  ==  1.0
+
+r2: De todas las ciudades, debe llegar de una ----------------
+
+y[B,A] + y[D,A] + y[F,A]  ==  1.0
+y[A,B] + y[C,B] + y[D,B] + y[E,B]  ==  1.0
+y[B,C] + y[D,C] + y[E,C] + y[F,C]  ==  1.0
+y[A,D] + y[B,D] + y[C,D] + y[F,D]  ==  1.0
+y[B,E] + y[C,E] + y[F,E]  ==  1.0
+y[A,F] + y[C,F] + y[D,F] + y[E,F] + y[F,F]  ==  1.0
+
+rc1: Romper el ciclo [A,D,F] ----------------
+
+1.0  <=  y[A,B] + y[A,C] + y[A,E] + y[D,B] + y[D,C] + y[D,E] + y[F,B] + y[F,C] + y[F,E]
+
+rc2: Romper el ciclo [B,C,E] ----------------
+
+1.0  <=  y[B,A] + y[B,D] + y[B,F] + y[C,A] + y[C,D] + y[C,F] + y[E,A] + y[E,D] + y[E,F]
+
+rc3: Romper el ciclo [A,F] ----------------
+
+1.0  <=  y[A,B] + y[A,C] + y[A,D] + y[A,E] + y[F,B] + y[F,C] + y[F,D] + y[F,E]
+
+rc4: Romper el ciclo [B,D] ----------------
+
+1.0  <=  y[B,A] + y[B,C] + y[B,E] + y[B,F] + y[D,A] + y[D,C] + y[D,E] + y[D,F]
+
+rc5: Romper el ciclo [C,E] ----------------
+
+1.0  <=  y[C,A] + y[C,B] + y[C,D] + y[C,F] + y[E,A] + y[E,B] + y[E,D] + y[E,F]
+=========================================
+
+==================================== VARIABLES ====================================
+
+y: Indica si se hace el trayecto de "c" a "cc" ----------------
+
+('A', 'A') = 0
+('A', 'B') = 0.0
+('A', 'C') = 0
+('A', 'D') = 0.0
+('A', 'E') = 0
+('A', 'F') = 1.0
+('B', 'A') = 1.0
+('B', 'B') = 0
+('B', 'C') = 0.0
+('B', 'D') = 0.0
+('B', 'E') = 0.0
+('B', 'F') = 0
+('C', 'A') = 0
+('C', 'B') = 0.0
+('C', 'C') = 0
+('C', 'D') = 0.0
+('C', 'E') = 1.0
+('C', 'F') = 0.0
+('D', 'A') = 0.0
+('D', 'B') = 0.0
+('D', 'C') = 1.0
+('D', 'D') = 0
+('D', 'E') = 0
+('D', 'F') = 0.0
+('E', 'A') = 0
+('E', 'B') = 1.0
+('E', 'C') = 0.0
+('E', 'D') = 0
+('E', 'E') = 0
+('E', 'F') = 0.0
+('F', 'A') = 0.0
+('F', 'B') = 0
+('F', 'C') = 0.0
+('F', 'D') = 1.0
+('F', 'E') = 0.0
+('F', 'F') = 0.0
+===================================================================================

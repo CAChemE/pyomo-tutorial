@@ -1,0 +1,11 @@
+# Datafile para Abstract_Model
+
+set p := Pedro Marta Laura;
+
+set t := Contable Director_Ventas Recursos_Humanos;
+
+param CI: Contable Director_Ventas Recursos_Humanos :=
+Pedro       11  5   2 
+Marta       15  12  8
+Laura       3   1   10
+;

@@ -1,0 +1,75 @@
+
+Problem: 
+- Name: unknown
+  Lower bound: 33.0
+  Upper bound: 33.0
+  Number of objectives: 1
+  Number of constraints: 7
+  Number of variables: 10
+  Number of nonzeros: 19
+  Sense: maximize
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 1
+      Number of created subproblems: 1
+  Error rc: 0
+  Time: 0.031199932098388672
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0
+
+
+========== OBJECTIVE FUNCTION ==========
+11*y[Pedro,Contable] + 5*y[Pedro,Director de ventas] + 2*y[Pedro,Recursos humanos] + 15*y[Marta,Contable] + 12*y[Marta,Director de ventas] + 8*y[Marta,Recursos humanos] + 3*y[Laura,Contable] + y[Laura,Director de ventas] + 10*y[Laura,Recursos humanos]
+
+El valor de la función objetivo es: 
+33.0
+========================================
+
+============== PARAMETERS ==============
+
+CI: Coeficiente de idoneidad ----------------
+
+('Pedro', 'Contable') = 11
+('Pedro', 'Director de ventas') = 5
+('Pedro', 'Recursos humanos') = 2
+('Marta', 'Contable') = 15
+('Marta', 'Director de ventas') = 12
+('Marta', 'Recursos humanos') = 8
+('Laura', 'Contable') = 3
+('Laura', 'Director de ventas') = 1
+('Laura', 'Recursos humanos') = 10
+========================================
+
+============== CONSTRAINTS ==============
+
+R1: Una persona, un trabajo ----------------
+
+y[Pedro,Contable] + y[Pedro,Director de ventas] + y[Pedro,Recursos humanos]  ==  1.0
+y[Marta,Contable] + y[Marta,Director de ventas] + y[Marta,Recursos humanos]  ==  1.0
+y[Laura,Contable] + y[Laura,Director de ventas] + y[Laura,Recursos humanos]  ==  1.0
+
+R2: Un trabajo, una persona ----------------
+
+y[Pedro,Contable] + y[Marta,Contable] + y[Laura,Contable]  ==  1.0
+y[Pedro,Director de ventas] + y[Marta,Director de ventas] + y[Laura,Director de ventas]  ==  1.0
+y[Pedro,Recursos humanos] + y[Marta,Recursos humanos] + y[Laura,Recursos humanos]  ==  1.0
+=========================================
+
+==================================== VARIABLES ====================================
+
+y: La persona "p" hace el trabajo "t" ----------------
+
+('Pedro', 'Contable') = 1.0
+('Pedro', 'Director de ventas') = 0.0
+('Pedro', 'Recursos humanos') = 0.0
+('Marta', 'Contable') = 0.0
+('Marta', 'Director de ventas') = 1.0
+('Marta', 'Recursos humanos') = 0.0
+('Laura', 'Contable') = 0.0
+('Laura', 'Director de ventas') = 0.0
+('Laura', 'Recursos humanos') = 1.0
+===================================================================================

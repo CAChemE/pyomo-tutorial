@@ -1,0 +1,125 @@
+
+Problem: 
+- Name: unknown
+  Lower bound: 232.0
+  Upper bound: 232.0
+  Number of objectives: 1
+  Number of constraints: 13
+  Number of variables: 11
+  Number of nonzeros: 31
+  Sense: maximize
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 5
+      Number of created subproblems: 5
+  Error rc: 0
+  Time: 0.031200170516967773
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0
+
+
+========== OBJECTIVE FUNCTION ==========
+50*n[Objeto 1] + 5*n[Objeto 2] + 3*n[Objeto 3] + 20*n[Objeto 4] + 16*n[Objeto 5] + 5*n[Objeto 6] + n[Objeto 7] + 30*n[Objeto 8] + 12*n[Objeto 9] + 40*n[Objeto 10]
+
+El valor de la función objetivo es: 
+232.0
+========================================
+
+============== PARAMETERS ==============
+
+MP: Precio de mercado ----------------
+
+Objeto 1 = 50
+Objeto 2 = 5
+Objeto 3 = 3
+Objeto 4 = 20
+Objeto 5 = 16
+Objeto 6 = 5
+Objeto 7 = 1
+Objeto 8 = 30
+Objeto 9 = 12
+Objeto 10 = 40
+
+V: Volumen unidad ----------------
+
+Objeto 1 = 1000
+Objeto 2 = 2
+Objeto 3 = 10
+Objeto 4 = 500
+Objeto 5 = 15
+Objeto 6 = 3
+Objeto 7 = 100
+Objeto 8 = 5
+Objeto 9 = 250
+Objeto 10 = 100
+
+W: Peso unidad ----------------
+
+Objeto 1 = 2000
+Objeto 2 = 20
+Objeto 3 = 300
+Objeto 4 = 1000
+Objeto 5 = 300
+Objeto 6 = 75
+Objeto 7 = 100
+Objeto 8 = 50
+Objeto 9 = 500
+Objeto 10 = 100
+
+N: Número de unidades existentes ----------------
+
+Objeto 1 = 1
+Objeto 2 = 10
+Objeto 3 = 1
+Objeto 4 = 1
+Objeto 5 = 15
+Objeto 6 = 1
+Objeto 7 = 1
+Objeto 8 = 1
+Objeto 9 = 1
+Objeto 10 = 1
+========================================
+
+============== CONSTRAINTS ==============
+
+VolumeRule: Restricción de volumen ----------------
+
+1000*n[Objeto 1] + 2*n[Objeto 2] + 10*n[Objeto 3] + 500*n[Objeto 4] + 15*n[Objeto 5] + 3*n[Objeto 6] + 100*n[Objeto 7] + 5*n[Objeto 8] + 250*n[Objeto 9] + 100*n[Objeto 10]  <=  2000.0
+
+WeightRule: Restricción de peso ----------------
+
+2000*n[Objeto 1] + 20*n[Objeto 2] + 300*n[Objeto 3] + 1000*n[Objeto 4] + 300*n[Objeto 5] + 75*n[Objeto 6] + 100*n[Objeto 7] + 50*n[Objeto 8] + 500*n[Objeto 9] + 100*n[Objeto 10]  <=  2500.0
+
+NumberRule: De donde no hay no se puede sacar ----------------
+
+n[Objeto 1]  <=  1.0
+n[Objeto 2]  <=  10.0
+n[Objeto 3]  <=  1.0
+n[Objeto 4]  <=  1.0
+n[Objeto 5]  <=  15.0
+n[Objeto 6]  <=  1.0
+n[Objeto 7]  <=  1.0
+n[Objeto 8]  <=  1.0
+n[Objeto 9]  <=  1.0
+n[Objeto 10]  <=  1.0
+=========================================
+
+==================================== VARIABLES ====================================
+
+n: Cogemos "n" objetos "obj" ----------------
+
+Objeto 1 = 0.0
+Objeto 2 = 10.0
+Objeto 3 = 0.0
+Objeto 4 = 0.0
+Objeto 5 = 7.0
+Objeto 6 = 0.0
+Objeto 7 = 0.0
+Objeto 8 = 1.0
+Objeto 9 = 0.0
+Objeto 10 = 1.0
+===================================================================================

@@ -1,0 +1,216 @@
+
+Problem: 
+- Name: unknown
+  Lower bound: 2.0
+  Upper bound: 2.0
+  Number of objectives: 1
+  Number of constraints: 13
+  Number of variables: 13
+  Number of nonzeros: 62
+  Sense: minimize
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 1
+      Number of created subproblems: 1
+  Error rc: 0
+  Time: 0.015600204467773438
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0
+
+
+========== OBJECTIVE FUNCTION ==========
+y[Zona 1] + y[Zona 2] + y[Zona 3] + y[Zona 4] + y[Zona 5] + y[Zona 6] + y[Zona 7] + y[Zona 8] + y[Zona 9] + y[Zona 10] + y[Zona 11] + y[Zona 12]
+
+El valor de la función objetivo es: 
+2.0
+========================================
+
+============== PARAMETERS ==============
+
+c: Estación i da servicio a zona j ----------------
+
+('Zona 1', 'Zona 1') = 1
+('Zona 1', 'Zona 2') = 1
+('Zona 1', 'Zona 3') = 1
+('Zona 1', 'Zona 4') = 0
+('Zona 1', 'Zona 5') = 1
+('Zona 1', 'Zona 6') = 0
+('Zona 1', 'Zona 7') = 0
+('Zona 1', 'Zona 8') = 0
+('Zona 1', 'Zona 9') = 0
+('Zona 1', 'Zona 10') = 0
+('Zona 1', 'Zona 11') = 0
+('Zona 1', 'Zona 12') = 0
+('Zona 2', 'Zona 1') = 1
+('Zona 2', 'Zona 2') = 1
+('Zona 2', 'Zona 3') = 0
+('Zona 2', 'Zona 4') = 0
+('Zona 2', 'Zona 5') = 1
+('Zona 2', 'Zona 6') = 0
+('Zona 2', 'Zona 7') = 0
+('Zona 2', 'Zona 8') = 0
+('Zona 2', 'Zona 9') = 0
+('Zona 2', 'Zona 10') = 0
+('Zona 2', 'Zona 11') = 0
+('Zona 2', 'Zona 12') = 0
+('Zona 3', 'Zona 1') = 1
+('Zona 3', 'Zona 2') = 0
+('Zona 3', 'Zona 3') = 1
+('Zona 3', 'Zona 4') = 1
+('Zona 3', 'Zona 5') = 1
+('Zona 3', 'Zona 6') = 1
+('Zona 3', 'Zona 7') = 1
+('Zona 3', 'Zona 8') = 1
+('Zona 3', 'Zona 9') = 0
+('Zona 3', 'Zona 10') = 0
+('Zona 3', 'Zona 11') = 0
+('Zona 3', 'Zona 12') = 0
+('Zona 4', 'Zona 1') = 0
+('Zona 4', 'Zona 2') = 0
+('Zona 4', 'Zona 3') = 1
+('Zona 4', 'Zona 4') = 1
+('Zona 4', 'Zona 5') = 1
+('Zona 4', 'Zona 6') = 1
+('Zona 4', 'Zona 7') = 0
+('Zona 4', 'Zona 8') = 0
+('Zona 4', 'Zona 9') = 0
+('Zona 4', 'Zona 10') = 0
+('Zona 4', 'Zona 11') = 1
+('Zona 4', 'Zona 12') = 0
+('Zona 5', 'Zona 1') = 1
+('Zona 5', 'Zona 2') = 1
+('Zona 5', 'Zona 3') = 1
+('Zona 5', 'Zona 4') = 1
+('Zona 5', 'Zona 5') = 1
+('Zona 5', 'Zona 6') = 0
+('Zona 5', 'Zona 7') = 0
+('Zona 5', 'Zona 8') = 0
+('Zona 5', 'Zona 9') = 0
+('Zona 5', 'Zona 10') = 1
+('Zona 5', 'Zona 11') = 1
+('Zona 5', 'Zona 12') = 0
+('Zona 6', 'Zona 1') = 0
+('Zona 6', 'Zona 2') = 0
+('Zona 6', 'Zona 3') = 1
+('Zona 6', 'Zona 4') = 1
+('Zona 6', 'Zona 5') = 0
+('Zona 6', 'Zona 6') = 1
+('Zona 6', 'Zona 7') = 0
+('Zona 6', 'Zona 8') = 1
+('Zona 6', 'Zona 9') = 0
+('Zona 6', 'Zona 10') = 0
+('Zona 6', 'Zona 11') = 1
+('Zona 6', 'Zona 12') = 0
+('Zona 7', 'Zona 1') = 0
+('Zona 7', 'Zona 2') = 0
+('Zona 7', 'Zona 3') = 1
+('Zona 7', 'Zona 4') = 0
+('Zona 7', 'Zona 5') = 0
+('Zona 7', 'Zona 6') = 0
+('Zona 7', 'Zona 7') = 1
+('Zona 7', 'Zona 8') = 1
+('Zona 7', 'Zona 9') = 0
+('Zona 7', 'Zona 10') = 0
+('Zona 7', 'Zona 11') = 1
+('Zona 7', 'Zona 12') = 0
+('Zona 8', 'Zona 1') = 0
+('Zona 8', 'Zona 2') = 0
+('Zona 8', 'Zona 3') = 0
+('Zona 8', 'Zona 4') = 0
+('Zona 8', 'Zona 5') = 0
+('Zona 8', 'Zona 6') = 1
+('Zona 8', 'Zona 7') = 1
+('Zona 8', 'Zona 8') = 1
+('Zona 8', 'Zona 9') = 1
+('Zona 8', 'Zona 10') = 0
+('Zona 8', 'Zona 11') = 1
+('Zona 8', 'Zona 12') = 1
+('Zona 9', 'Zona 1') = 0
+('Zona 9', 'Zona 2') = 0
+('Zona 9', 'Zona 3') = 0
+('Zona 9', 'Zona 4') = 0
+('Zona 9', 'Zona 5') = 0
+('Zona 9', 'Zona 6') = 0
+('Zona 9', 'Zona 7') = 0
+('Zona 9', 'Zona 8') = 1
+('Zona 9', 'Zona 9') = 1
+('Zona 9', 'Zona 10') = 1
+('Zona 9', 'Zona 11') = 1
+('Zona 9', 'Zona 12') = 1
+('Zona 10', 'Zona 1') = 0
+('Zona 10', 'Zona 2') = 0
+('Zona 10', 'Zona 3') = 0
+('Zona 10', 'Zona 4') = 0
+('Zona 10', 'Zona 5') = 1
+('Zona 10', 'Zona 6') = 0
+('Zona 10', 'Zona 7') = 0
+('Zona 10', 'Zona 8') = 0
+('Zona 10', 'Zona 9') = 1
+('Zona 10', 'Zona 10') = 1
+('Zona 10', 'Zona 11') = 1
+('Zona 10', 'Zona 12') = 0
+('Zona 11', 'Zona 1') = 0
+('Zona 11', 'Zona 2') = 0
+('Zona 11', 'Zona 3') = 0
+('Zona 11', 'Zona 4') = 1
+('Zona 11', 'Zona 5') = 1
+('Zona 11', 'Zona 6') = 1
+('Zona 11', 'Zona 7') = 0
+('Zona 11', 'Zona 8') = 1
+('Zona 11', 'Zona 9') = 1
+('Zona 11', 'Zona 10') = 1
+('Zona 11', 'Zona 11') = 1
+('Zona 11', 'Zona 12') = 0
+('Zona 12', 'Zona 1') = 0
+('Zona 12', 'Zona 2') = 0
+('Zona 12', 'Zona 3') = 0
+('Zona 12', 'Zona 4') = 0
+('Zona 12', 'Zona 5') = 0
+('Zona 12', 'Zona 6') = 0
+('Zona 12', 'Zona 7') = 1
+('Zona 12', 'Zona 8') = 1
+('Zona 12', 'Zona 9') = 1
+('Zona 12', 'Zona 10') = 0
+('Zona 12', 'Zona 11') = 0
+('Zona 12', 'Zona 12') = 1
+========================================
+
+============== CONSTRAINTS ==============
+
+r1: Satisfacción de demanda ----------------
+
+1.0  <=  y[Zona 1] + y[Zona 2] + y[Zona 3] + y[Zona 5]
+1.0  <=  y[Zona 1] + y[Zona 2] + y[Zona 5]
+1.0  <=  y[Zona 1] + y[Zona 3] + y[Zona 4] + y[Zona 5] + y[Zona 6] + y[Zona 7] + y[Zona 8]
+1.0  <=  y[Zona 3] + y[Zona 4] + y[Zona 5] + y[Zona 6] + y[Zona 11]
+1.0  <=  y[Zona 1] + y[Zona 2] + y[Zona 3] + y[Zona 4] + y[Zona 5] + y[Zona 10] + y[Zona 11]
+1.0  <=  y[Zona 3] + y[Zona 4] + y[Zona 6] + y[Zona 8] + y[Zona 11]
+1.0  <=  y[Zona 3] + y[Zona 7] + y[Zona 8] + y[Zona 11]
+1.0  <=  y[Zona 6] + y[Zona 7] + y[Zona 8] + y[Zona 9] + y[Zona 11] + y[Zona 12]
+1.0  <=  y[Zona 8] + y[Zona 9] + y[Zona 10] + y[Zona 11] + y[Zona 12]
+1.0  <=  y[Zona 5] + y[Zona 9] + y[Zona 10] + y[Zona 11]
+1.0  <=  y[Zona 4] + y[Zona 5] + y[Zona 6] + y[Zona 8] + y[Zona 9] + y[Zona 10] + y[Zona 11]
+1.0  <=  y[Zona 7] + y[Zona 8] + y[Zona 9] + y[Zona 12]
+=========================================
+
+==================================== VARIABLES ====================================
+
+y: Existe una planta en i ----------------
+
+Zona 1 = 0.0
+Zona 2 = 0.0
+Zona 3 = 0.0
+Zona 4 = 0.0
+Zona 5 = 1.0
+Zona 6 = 0.0
+Zona 7 = 0.0
+Zona 8 = 1.0
+Zona 9 = 0.0
+Zona 10 = 0.0
+Zona 11 = 0.0
+Zona 12 = 0.0
+===================================================================================
